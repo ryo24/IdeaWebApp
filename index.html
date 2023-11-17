@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>アイデア出しアシスタント</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>アイデア出しアシスタント</h1>
+        <div id="ideaDisplay">アイデアがここに表示されます</div>
+        <button id="ideaButton">アイデアを出す</button>
+
+        <div id="targetDisplay"></div>
+        <textarea id="copyPrompt" rows="4" cols="50" readonly></textarea>
+        <br>
+        <button id="copyButton">プロンプトをコピー</button>
+        <a href="https://chat.openai.com/" target="_blank"><button id="gotoChatGPT">ChatGPTで話す</button></a>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

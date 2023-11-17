@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #34558b;
+    color: #fff; /* テキストの色を白に設定 */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* コンテナの背景色を白に設定 */
+    border-radius: 10px; /* コンテナを角丸に */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* コンテナに影を追加 */
+}
+
+h1 {
+    color: #34558b; /* h1のテキスト色を暗い青色に設定 */
+}
+
+
+#ideaDisplay {
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px;
+
+    border: 2px solid #e6b800; /* 枠線の色を暗い黄色系に設定 */
+    background-color: #ffff99; /* 背景色を暗い黄色系に設定 */
+
+    color: #34558b; /* テキストの色を白に設定 */
+    border-radius: 10px;
+}
+
+
+#copyPrompt {
+    margin-top: 20px;
+    font-size: 18px; /* フォントサイズを変更 */
+    color: #34558b; /* テキストの色を青に設定 */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px; /* ボタンの余白を調整 */
+    font-size: 18px; /* ボタンのフォントサイズを変更 */
+    background-color: #34558b; /* ボタンの背景色を青に設定 */
+    color: #fff; /* ボタンのテキスト色を白に設定 */
+    border: none; /* ボーダーを削除 */
+    border-radius: 5px; /* ボタンを角丸に */
+    cursor: pointer; /* ホバー時にカーソルをポインターに変更 */
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* ボタンを中央に配置 */
+}
+
+/* 既存のスタイルはそのままに、targetDisplayのスタイルを追加します */
+#targetDisplay {
+    background-color: #f8f8f8; /* 背景色を変更 */
+    color: #34558b; /* テキストの色を青に */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px; /* 角丸の設定 */
+    border: 1px solid #ccc; /* 枠線の色を調整 */
+}
